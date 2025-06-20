@@ -7,10 +7,9 @@ as a teenager to retirement.
 """
 
 # Export main modules
-from moneySmartz.constants import *
-from moneySmartz.models import Player, BankAccount, Card, Loan, Asset
-from moneySmartz.game import Game
-from moneySmartz.ui import Button, TextInput, Screen, GUIManager
+from .game import Game
+from .models import Player, BankAccount, Card, Loan, Asset
+from .ui import Button, TextInput, Screen, GUIManager
 
 # Version information
 __version__ = "1.0.0"
